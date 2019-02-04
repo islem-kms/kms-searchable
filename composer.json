@@ -1,0 +1,23 @@
+{
+    "name": "islem-kms/searchable",
+    "description": "Eloquent model search trait.",
+    "keywords": ["laravel", "eloquent", "search", "searchable", "database", "model"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Islem Khemissi",
+            "email": "khemissi.islem@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/database": "4.2.x|~5.0",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "IslemKms\\Searchable\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
